@@ -13,13 +13,14 @@
       <P> Vue로 만들었음 </P>
     </div>
 
-    <List :blog="블로그글"/>
+    <router-view :blog="블로그글"></router-view>
+<!--    <List :blog="블로그글"/>-->
 
   </div>
 </template>
 
 <script>
-import List from './components/List.vue';
+// import List from './components/List.vue';
 import blog from './assets/blog.js';
 export default {
   name: 'App',
@@ -29,7 +30,7 @@ export default {
     }
   },
   components: {
-    List
+    // List
 
   }
 }
