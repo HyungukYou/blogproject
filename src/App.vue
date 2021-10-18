@@ -8,10 +8,13 @@
       </form>
     </nav>
 
-    <div class="container">
-      <h5>개발자의 블로그입니다</h5>
-      <P> Vue로 만들었음 </P>
-    </div>
+<!--    <div class="container">-->
+<!--      <h5>개발자의 블로그입니다</h5>-->
+<!--      <P> Vue로 만들었음 </P>-->
+<!--    </div>-->
+    <router-link to="/">홈페이지</router-link>
+    <router-link to="/list">리스트페이지</router-link>
+
 
     <router-view :blog="블로그글"></router-view>
 <!--    <List :blog="블로그글"/>-->
