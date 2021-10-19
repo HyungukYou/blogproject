@@ -14,9 +14,11 @@
 <!--    </div>-->
     <router-link to="/">홈페이지</router-link>
     <router-link to="/list">리스트페이지</router-link>
+    <router-link to="/detail">상세페이지</router-link>
 
-
-    <router-view :blog="블로그글"></router-view>
+    <div class="mt-4">
+      <router-view :blog="블로그글"></router-view>
+    </div>
 <!--    <List :blog="블로그글"/>-->
 
   </div>
